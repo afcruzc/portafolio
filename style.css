@@ -1,7 +1,8 @@
 /************************************************** Custom Properties *********************************************/
 :root{
     /* --first-color: #FA3D2B; */
-    --first-color: #FF7F50;
+    /* --first-color: #FF7F50; */
+    --first-color: #15297c;
    /*  --first-alpha-color: rgba(250, 61, 43, 0.75); */
     --first-alpha-color: rgba(0, 0, 0, 0);
     --second-color: #14192d;
@@ -10,9 +11,9 @@
     --third-alpha-color: rgba(233, 176,0,0.75);
     --white-color: #fff;
     --gray-light-color: #f3f3f3;
-    --gray-color:rgba(20, 25, 45, 0.75);
+    --gray-color: #777;
     /* --gray-dark-color: #666; */
-    --gray-dark-color: #FF7F50;
+    --gray-dark-color: #15297c;
     --black-color: #000;
     --link-color: #008f95;
     --title-color: #333;
@@ -265,14 +266,14 @@ h2.hero-image-title{
 }
 /********************* Menu **********************/
 .menu-btn{
-    outline: thin solid var(--first-color);
+    outline: thin solid #777;
     border: 0;
     cursor: pointer;
     background-color: var(--second-color);
 }
 
 .menu-btn svg{
-    fill: var(--first-color);
+    fill: #777;
 }
 
 .menu{
@@ -299,7 +300,7 @@ h2.hero-image-title{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: var(--first-color)
+    color: #888;
 }
 
 .menu a:hover{
